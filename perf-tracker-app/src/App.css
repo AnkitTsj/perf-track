@@ -1,5 +1,27 @@
-.app-container{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
+body {
+  background-color: #faf7f2; 
+  color: #3e3e3e;
 }
-/* .app-container: */
+
+.app-container {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.log-item {
+  background-color: #ffffff;
+  padding: 12px 18px;
+  margin-bottom: 12px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(184, 174, 143, 0.2); 
+}
+
+.log-item strong {
+  color: #8c8573; 
+  font-size: 0.9rem;
+}
